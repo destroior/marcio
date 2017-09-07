@@ -1,0 +1,51 @@
+html {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  background-color: black;
+}
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  background-color: #f1f1f1;
+  color: black;
+  overflow-x: hidden;
+  font-family: Oswald, sans-serif;
+}
+.sitetype {
+  width: 70%;
+  height: auto;
+  position: relative;
+  left: -1000px;
+  box-shadow: 5px 5px 5px gray;
+  border-width: thin;
+  border: solid black;
+  border-radius: 15px;
+}
+.texto {
+  text-align: center;
+  width: 100%;
+  clear: both;
+}
+.infoclose {
+  position: relative;
+  width: 20%;
+  top: 20%;
+  left: 40%;
+  margin-right: -40%;
+  text-decoration: none;
+  background-color: gray;
+  padding: 10px 10px;
+  color:black;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  opacity: 0.6;
+}
+.infoclose:hover {
+  opacity: 1;
+  color: yellow;
+  border-width: thin;
+}

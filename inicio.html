@@ -1,0 +1,129 @@
+﻿<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+  <meta name="viewport" charset="utf-8" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0">
+  <link rel="Stylesheet" href="inicio.css">
+  <link href="https://fonts.googleapis.com/css?family=Archivo+Narrow" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+  <script src="config.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <title>Curriculum Vitae do Márcio Carvalho</title>
+  <script>
+  $(document).ready(function(){
+      $("#dp").click(function(){
+          $(".dados").slideToggle("slow");
+      });
+      $("#dedu").click(function(){
+          $(".edu").slideToggle("slow");
+      });
+      $("#dep").click(function(){
+          $(".exp").slideToggle("slow");
+          if(mobile==1){
+          alert("mobile version");
+          $('.expp2').css('height','70px');
+          $('.expp2').css('margin-bottom','10%');
+        }
+      });
+  });
+  </script>
+</head>
+<body onload="startdetect2(),show5()">
+  <audio autoplay="true" src="Tracy Chapman - Fast car (Jonas Blue Ft Dakota remix).mp3"></audio>
+  <div class="navi">
+    <a href="iniciouk.html"><img src="Imagens/uk.jpg" style="margin-left: -10px; padding-top: 10px; height: 20px; width: 30px"></a>
+    <a href="inicio.html"><img src="Imagens/pt.gif" style="margin-left: -20px; padding-top: 10px; height: 20px; width: 30px"></a>
+    <a href="contato.php"><img src="Imagens/contato.png" style="margin-left: -20px; padding-top: 10px; height: 20px; width: 50px"></a>
+    <div class="clock" id="liveclock"></div>
+  </div>
+  <div class="showcurriculo" id="curi1">
+    <img class="curilogo" src="Imagens/Curriculo.png">
+    <div class="showhist">
+      <img src="Imagens/eu.png" id=euc class="eu">
+      <p id=born style="padding-top: 50px;">
+        Eu Nasci em Setúbal no ano 1985 no dia 12 do Mês Outubro.<br>
+  Eu estudei até ao 8º ano escolar, desisti da escola aos 15 anos de idade para começar a trabalhar.<br>
+  Eu estudei em escolas como "Escola Primária do Montebelo, Escola da camarinha, Escola da Bela Vista"<br>
+  Alguns anos mais tarde acabei o 9º ano na escola profissional das Manteigadas através do RVCC.<br>
+  No Ano 2009 despedi-me do emprego que eu tinha na OCS Limpotécnica onde eu estava posicionado na Alstom na Mitrena e decidi ir para Inglaterra onde eu comecei a trabalhar 2 dias depois, e foi numa empresa pelo nome Pret A Manger onde fiquei a trabalhar ate dia 27 de junho de 2016.<br>
+  Acabei por decidir voltar a Portugal depois do Referendum do Brexit ter sido aprovado.<br>
+  Ao chegar a Portugal comecei a tirar a carta de conducão e no dia 3 de outubro comecei a tirar o curso de Técnico de Multimédia no IEFP de Setúbal que termina no Ano 2018.<br>
+  Neste momento já acabei de tirar a carta de condução.
+      </p>
+    </div>
+    <div class="navi2">
+      <a id="dp">Dados Pessoais</a>
+      <a id="dedu" href="#">Educação</a>
+      <a id="dep" href="#">Trabalho/Hobbies</a>
+    </div>
+    <div class="curvdiv">
+      <div id="bdados" class="dados">
+      <div class="showm">
+        <img src="Imagens/Nome.png" class="showmpic"><p id=p1>Márcio André dos Reis Carvalho</p>
+        <img src="Imagens/age.png" class="showmpic"><p id=p1>31</p>
+        <img src="Imagens/favicon.png" class="showmpic"><p id=p1>12 de Outubro de 1985</p>
+        <img src="Imagens/Morada.png" class="showmpic"><p id=p1>Rua Luta do Povo nº 4 - Setúbal</p>
+        <img src="Imagens/Postal.png" class="showmpic"><p id=p1>2910-119</p>
+        <img src="Imagens/telefone.png" class="showmpic"><p id=p1>939025850</p>
+        <img src="Imagens/email.png" class="showmpic"><p id=p1>destroior@hotmail.com</p>
+        <img src="Imagens/logo-skill.png" class="showmpic"><p id=p1>Português(Materno), Inglês</p>
+        <img src="Imagens/smoker.png" class="showmpic"><p id=p1>No</p>
+        <img src="Imagens/alcohol.png" class="showmpic"><p id=p1>No</p>
+        <br>
+      </div>
+      </div>
+      <div id="bedu" class="edu">
+      <p>
+        <font color=red>-</font> <font color=black>Atualmente: <font color=red>9ºano</font><br>
+        <font color=red>-</font> <font color=black>A Tirar: <font color=red>12ºano <font color=blue>/</font> <font color=black>IEFP Setúbal - Curso de Técnicos de Multimédia 003 <font color=blue>/<font color=black> Desde:<font color=red> Outubro de 2016</font>
+        <br>
+        <font color=red>-</font> <font color=black>RVCC - Cidadania <font color=blue>/</font> Escola Profissional das Manteigadas <font color=blue>/<font color=black> Ano: <font color=red>2003</font>
+        <br>
+        <font color=red>-</font> <font color=black>RVCC - ICT <font color=blue>/</font> Escola Profissional das Manteigadas <font color=blue>/<font color=black> Ano: <font color=red>2003</font>
+        <br>
+        <font color=red>-</font> <font color=black>RVCC - Inglês <font color=blue>/</font> Escola Profissional das Manteigadas <font color=blue>/<font color=black> Ano: <font color=red>2003</font>
+        <br>
+        <font color=red>-</font> <font color=black>RVCC - Português para a Vida <font color=blue>/</font> Escola Profissional das Manteigadas <font color=blue>/<font color=black> Ano: <font color=red>2003</font>
+        <br>
+        <font color=red>-</font> <font color=black>NVQ nivel 3 em Hospitalidade em supervisão e liderança <font color=blue>/</font> <br>Pret a Manger Academy - Londres <font color=blue>/<font color=black> Ano: <font color=red>2012</font>
+        <br>
+        <font color=red>-</font> <font color=black>ICQ Level 2 Award in Barista Skills(QCF) <font color=blue>/</font> Pret a Manger Academy - Londres <font color=blue>/<font color=black> Ano: <font color=red>2014</font>
+        <br>
+      </p>
+      </div>
+      <div class="exp">
+        <div class="circle">Portugal</div>
+        <p class="expp">
+          <font color=red>Trabalhei na OCS Limpotécnica entre 2005 e 2009</font><br>
+          <font color=black>Funções: Limpeza de Armazém numa companhia chamada Alston, localizada na Mitrena.
+          Treino com máquinas de limpeza, organizar o meu trabalho de maneira a concluir todo o trabalho a mim atribuído.
+          Cobria as férias do supervisor com a função de distribuir trabalho pelos meus colegas.</font>
+        </p>
+        <hr>
+        <div style="clear: both" class="circle2">Inglaterra</div>
+        <p class="expp">
+        <br>
+         <font color=red>Pret a Manger de 5 de Maio 2009 até 27 de Junho de 2016</font><br>
+         Funções: Barista e Organizador de loja no qual encomendava os produtos utilizados nas vendas, falar com fornecedores, fazer relatórios mensais. Garantir a constante qualidade dos Produtos.
+         Trabalhei como Supervisor de Equipa onde organizava os horários da equipa para ter a certeza que todos turnos estavam cobertos com as varias qualidades de cada individo para garantir o excelente serviço ao cliente.
+        </p>
+        <hr>
+        <div class="circle3">Sobre Mim</div>
+        <p class="expp">
+         Eu sou uma pessoa muito simples e muito trabalhadora, gosto de garantir que todo o meu trabalho é feito com eficiência e perfeição. Dou sempre o meu melhor e nunca digo que não a trabalho. Com todas as qualidades que tenho ganho ao longo dos anos aqui em Portugal mas também na Inglaterra faz de mim uma pessoa muito flexível e “hands on”. Espero que esta oportunidade me possa ser dada para eu poder ser uma mais valia para esta empresa.
+       </p>
+       <hr>
+       <div class="circle3">Passatempos</div>
+         <p id="pissingmeoff" class="expp2">
+           Eu gosto de jogar computador, gosto também ir ao cinema e sair com amigos e família para socializar.
+       </p>
+       <hr>
+         <div class="circle4">Conhecimentos Informáticos</div>
+         <p class="expp2">
+           &emsp;Photoshop, HTML5, CSS, Javascript, Adobe Flash, Excel, Word, PowerPoint
+        </p>
+      </div>
+      <div class="blol">
+        Esta Página foi criada por Márcio André dos Reis Carvalho
+      </div>
+</body>
+</html>
